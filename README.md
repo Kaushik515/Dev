@@ -25,13 +25,28 @@ If you get "Permission denied" error, the program is still running:
 Stop-Process -Name "filename" -Force
 ```
 
+## Header Includes
+When including the `bits/stdc++.h` header, please use double quotes `""` instead of angle brackets `<>` to ensure the compiler finds the local file.
+
+**Correct:**
+```cpp
+#include "bits/stdc++.h"
+```
+
+**Incorrect (unless configured globally):**
+```cpp
+#include <bits/stdc++.h>
+```
+
 ## Project Structure
 ```
 OOPS/
-├── CombinedOops.cpp
-├── Constructors.cpp
-├── bits/
-│   └── stdc++.h
-└── Sheets/
-    └── No-of-Islands.cpp
+Sheets/
+    ├── bits/
+    │   └── stdc++.h
+    ├── CombinedOops.cpp
+    ├── Constructors.cpp
+    ├── Max-Area-of-Island.cpp
+    ├── No-of-Islands.cpp
+    └── Surrounded-Regions.cpp
 ```
