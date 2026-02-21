@@ -51,6 +51,9 @@ public:
     return -1;
   }
 };
+//TC : sqrt(1e4) operations
+//SC : 1e4
+
 // brute force
 //  class Solution {
 //  public:
@@ -92,6 +95,8 @@ public:
 //          return -1;
 //      }
 //  };
+//TC : 1e4 operations
+//SC : 1e4
 int main() {
   Solution sol;
   int t;
