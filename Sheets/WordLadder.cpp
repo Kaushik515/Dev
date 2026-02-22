@@ -47,3 +47,4 @@ int main() {
   }
   return 0;
 }
+// TC : O(N*L*26), SC : O(N)
