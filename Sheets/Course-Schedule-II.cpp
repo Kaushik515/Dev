@@ -54,3 +54,5 @@ int main(){
     }
     return 0;
 }
+//TC : O(V+E) where V is the number of courses and E is the number of prerequisites.
+//SC : O(V+E) for the adjacency list and indegree array.
