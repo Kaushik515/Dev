@@ -25,24 +25,9 @@ If you get "Permission denied" error, the program is still running:
 Stop-Process -Name "filename" -Force
 ```
 
-## Header Includes
-When including the `bits/stdc++.h` header, please use double quotes `""` instead of angle brackets `<>` to ensure the compiler finds the local file.
-
-**Correct:**
-```cpp
-#include "bits/stdc++.h"
-```
-
-**Incorrect (unless configured globally):**
-```cpp
-#include <bits/stdc++.h>
-```
-
 ## Project Structure
 ```
 Sheets/
-    ├── bits/
-    │   └── stdc++.h
     ├── Clone-graph.cpp
     ├── CombinedOops.cpp
     ├── Constructors.cpp

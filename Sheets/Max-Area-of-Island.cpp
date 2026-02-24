@@ -1,4 +1,4 @@
-#include"./bits/stdc++.h"
+#include <bits/stdc++.h>
 using namespace std;
 class Solution {
     public:
@@ -12,7 +12,7 @@ class Solution {
         int dc[4] = {0,1,0,-1};
         q.push({r,c});
         while(!q.empty()){
-            auto [r,c] =q.front();
+            auto [r,c] = q.front();
             q.pop();
             for(int i=0;i<4;i++){
                 int nr = r+dr[i];
