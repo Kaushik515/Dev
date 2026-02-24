@@ -50,6 +50,7 @@ Sheets/
     ├── Max-Area-of-Island.cpp
     ├── No-of-Islands.cpp
     ├── Open-the-Lock.cpp
+    ├── Shortest-Path-in-BinaryMatrix.cpp
     ├── Surrounded-Regions.cpp
     └── WordLadder.cpp
 ```
