@@ -41,3 +41,5 @@ int main(){
     Solution sol;
     cout<<sol.networkDelayTime(times,n,k)<<endl;
 }
+//TC : O(ElogV) where E is the number of edges and V is the number of vertices in the graph.
+//SC : O(V) where V is the number of vertices in the graph.
