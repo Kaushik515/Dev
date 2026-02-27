@@ -35,6 +35,7 @@ Sheets/
     ├── Max-Area-of-Island.cpp
     ├── No-of-Islands.cpp
     ├── Open-the-Lock.cpp
+    ├── Path-with-MinimumEffort.cpp
     ├── Shortest-Path-in-BinaryMatrix.cpp
     ├── Surrounded-Regions.cpp
     └── WordLadder.cpp
